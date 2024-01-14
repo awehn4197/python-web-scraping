@@ -1,0 +1,45 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+annotated-types = "*"
+beautifulsoup4 = "*"
+bs4 = "*"
+certifi = "*"
+charset-normalizer = "*"
+distlib = "*"
+filelock = "*"
+greenlet = "*"
+idna = "*"
+iniconfig = "*"
+logging = "*"
+numpy = "*"
+packaging = "*"
+pandas = "*"
+pathlib = "*"
+pillow = "*"
+pipenv = "*"
+platformdirs = "*"
+pluggy = "*"
+psycopg2 = "*"
+pydantic = "*"
+pydantic-core = "*"
+pytest = "*"
+python-dateutil = "*"
+python-dotenv = "*"
+pytz = "*"
+requests = "*"
+six = "*"
+soupsieve = "*"
+sqlalchemy = "*"
+typing-extensions = "*"
+tzdata = "*"
+urllib3 = "*"
+virtualenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"

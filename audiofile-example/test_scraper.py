@@ -11,7 +11,7 @@ class TestScraper(unittest.TestCase):
     """
 
     def setUp(self):
-        headphone_url = "https://crinacle.com/rankings/headphones/"
+        headphone_url = "https://crinacle.com/rankings/headphones"
         iem_url = "https://crinacle.com/rankings/iems/"
 
         self.headphone_response = requests.get(headphone_url)

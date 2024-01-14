@@ -1,0 +1,6 @@
+.vscode
+.env
+.pytest_cache
+logs.log
+*/__pycache__/
+*/csv/

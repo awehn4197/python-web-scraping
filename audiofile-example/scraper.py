@@ -108,5 +108,5 @@ if __name__ == "__main__":
     headphones = scraper.scrape(device_type="headphones")
     iems = scraper.scrape(device_type="iems")
 
-    scraper.convert_to_csv(device_data=headphones, device_type="headphones", data_level="bronze")
-    scraper.convert_to_csv(device_data=iems, device_type="iems", data_level="bronze")
+    # scraper.convert_to_csv(device_data=headphones, device_type="headphones", data_level="bronze")
+    # scraper.convert_to_csv(device_data=iems, device_type="iems", data_level="bronze")
